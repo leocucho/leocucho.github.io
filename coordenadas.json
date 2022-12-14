@@ -1,0 +1,376 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-12-13",
+      "departamento":"Ucayali",
+      "provincia":"Atalaya",
+      "distrito":"Yurúa",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Forestal",
+      "descripcion_suceso":"Tala ilegal de arboles",
+      "coordenadas": "-72.76677621302791, -9.758831698591164"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-72.76677621302791, -9.758831698591164]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-12-13",
+      "departamento":"Amazonas",
+      "provincia":"Chachapoyas",
+      "distrito":"Cheto",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-77.69263235779553, -6.302697382601574"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.69263235779553, -6.302697382601574]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"San Martín",
+      "provincia":"Bellavista",
+      "distrito":"Alto Biavo",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-76.25531852911041, -7.882348884583555"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-76.25531852911041, -7.882348884583555]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Madre de Dios",
+      "provincia":"Manu",
+      "distrito":"Manu",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-71.72288599952398, -12.040943089706186"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-71.72288599952398, -12.040943089706186]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Amazonas",
+      "provincia":"Bongará",
+      "distrito":"Jumbilla",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-77.84983579305083, -5.820075121325983"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.84983579305083, -5.820075121325983]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Amazonas",
+      "provincia":"Rodríguez de Mendoza",
+      "distrito":"San Nicolás",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-77.33934077595478, -6.466887581295309"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.33934077595478, -6.466887581295309]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Amazonas",
+      "provincia":"Utcubamba",
+      "distrito":"Cajaruro",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-78.42392922435344, -5.737673219135939"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-78.42392922435344, -5.737673219135939]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Amazonas",
+      "provincia":"Utcubamba",
+      "distrito":"Cajaruro",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-78.42392922435344, -5.737673219135939"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-78.42392922435344, -5.737673219135939]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Chanchamayo",
+      "distrito":"La Merced",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.33728677140402, -11.058722351703418"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.33728677140402, -11.058722351703418]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Chupaca",
+      "distrito":"Áhuac",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.37337097574193, -12.073043477966975"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.37337097574193, -12.073043477966975]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Concepción",
+      "distrito":"Aco",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.42359318065418, -11.95127362022408"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.42359318065418, -11.95127362022408]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Huancayo",
+      "distrito":"Chicche",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.29963214201322, -12.297631895495751"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.42359318065418, -12.297631895495751]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Acolla",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.53767287397257, -11.738254056445404"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.53767287397257, -11.738254056445404]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Huaripampa",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.47266239226349, -11.808557673627142"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.47266239226349, -11.808557673627142]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Huertas",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.47611708991936, -11.759520294433262"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.47611708991936, -11.759520294433262]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Julcán",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-78.49227202516431, -8.045068878195062"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-78.49227202516431, -8.045068878195062]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Llocllapampa",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.66766855290345, -11.837048781633763"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.66766855290345, -11.837048781633763]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Masma",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.42646410390472, -11.783992970270686"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.42646410390472, -11.783992970270686]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Masma Chicche",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.36138674124159, -11.774832360510379"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.36138674124159, -11.774832360510379]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Muquiyauyo",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.45751332559809, -11.813052448339866"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.45751332559809, -11.813052448339866]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Pancán",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.48934591769938, -11.74739483133044"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.48934591769938, -11.74739483133044]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Junín",
+      "provincia":"Jauja",
+      "distrito":"Pomacancha",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-75.62473564512455, -11.738423185509815"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.62473564512455, -11.738423185509815]
+    }
+  }
+]
