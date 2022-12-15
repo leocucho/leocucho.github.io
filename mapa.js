@@ -37,3 +37,14 @@ document.getElementById('select-location').addEventListener('change', function(e
   map.flyTo(cordenada,13);
   
 })
+
+let carto_light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {attribution: '©OpenStreetMap, ©CartoDB',subdomains: 'abcd',maxZoom: 24});
+
+minimap = new L.Control.MiniMap(carto_light,
+  {
+      toggleDisplay: true,
+      minimized: false,
+      position: "bottomleft"
+  }).addTo(map);
+
+new L.Control.scale({imperial: false}).addTo(map);
