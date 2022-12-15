@@ -7,6 +7,15 @@ let geojsonMarkerOptions = {
   fillOpacity: 0.8
 };
 
+let geojson_estilo = {
+  radius: 8,
+  fillColor: "#fff",
+  color: "#fff",
+  weight: 1,
+  opacity: 1,
+  fillOpacity: 0.8
+};
+
 let map = L.map('map').setView([4.639386,-74.082412],6)
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
@@ -21,11 +30,20 @@ xhr.onreadystatechange = function() {
       let victimas = JSON.parse(xhr.responseText)
         var datalayer = L.geoJson(victimas, {
             pointToLayer: function (feature, latlng) {                             
-              console.log(latlng)
+              if(feature.properties.tipo_denuncia == 'Fauna Silvestre') {                
+                return L.circleMarker(latlng, geojsonMarkerOptions)
+                .bindPopup(`${feature.properties.departamento}`)              
+                .openPopup()
+              }
+              else {
+                return L.circleMarker(latlng, geojson_estilo)
+                .bindPopup(`${feature.properties.departamento}`)              
+                .openPopup()
+              }
+            },
+            onEachFeature: function (feature, layer) {
               console.log(feature)
-              return L.marker(latlng, geojsonMarkerOptions)
-              .bindPopup(`${feature.properties.departamento}`)
-              .openPopup()
+              console.log(layer)
             }
         }).addTo(map);
     }
