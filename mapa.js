@@ -13,16 +13,19 @@ let map = L.map('map').setView([4.639386,-74.082412],6)
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map)
 
+      
+
 let xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4){
-      console.log(xhr.responseText)
+    if (xhr.readyState === 4){      
       let victimas = JSON.parse(xhr.responseText)
         var datalayer = L.geoJson(victimas, {
-            pointToLayer: function (feature, latlng) {
-              console.log(feature)
+            pointToLayer: function (feature, latlng) {                             
               console.log(latlng)
-                return L.circleMarker(latlng, geojsonMarkerOptions);
+              console.log(feature)
+              return L.marker(latlng, geojsonMarkerOptions)
+              .bindPopup(`${feature.properties.departamento}`)
+              .openPopup()
             }
         }).addTo(map);
     }
@@ -39,6 +42,8 @@ document.getElementById('select-location').addEventListener('change', function(e
 })
 
 let carto_light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {attribution: '©OpenStreetMap, ©CartoDB',subdomains: 'abcd',maxZoom: 24});
+
+
 
 minimap = new L.Control.MiniMap(carto_light,
   {
