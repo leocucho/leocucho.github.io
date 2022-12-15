@@ -41,7 +41,7 @@
       "provincia":"Bellavista",
       "distrito":"Alto Biavo",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
+      "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Se encontro monos enfermos",
       "coordenadas": "-76.25531852911041, -7.882348884583555"
     },
@@ -58,7 +58,7 @@
       "provincia":"Manu",
       "distrito":"Manu",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
+      "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Se encontro monos enfermos",
       "coordenadas": "-71.72288599952398, -12.040943089706186"
     },
@@ -347,7 +347,7 @@
       "provincia":"Jauja",
       "distrito":"Pancán",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
+      "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Se encontro monos enfermos",
       "coordenadas": "-75.48934591769938, -11.74739483133044"
     },
