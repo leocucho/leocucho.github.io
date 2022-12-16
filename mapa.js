@@ -37,7 +37,7 @@ xhr.onreadystatechange = function() {
               }
               else {
                 return L.circleMarker(latlng, geojson_estilo)
-                .bindPopup(`${feature.properties.departamento}`)              
+                .bindPopup(`${feature.properties.foto_denuncia}`)              
                 .openPopup()
               }
             },
@@ -71,16 +71,3 @@ minimap = new L.Control.MiniMap(carto_light,
   }).addTo(map);
 
 new L.Control.scale({imperial: false}).addTo(map);
-
-//leyenda
-
-let referencia_direccion = [
-  [-8.4340,-75.1130],
-  [-4.3660,-70.1870]
-];
-
-let camino = L.poliline(referencia_direccion, {
-  color: 'red'
-}).addTo(map)
-
-
