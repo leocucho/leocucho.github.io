@@ -6,3 +6,8 @@
 body {
   background-color: rgb(147, 170, 97);
 }
+
+li {
+  list-style: none;
+}
+
