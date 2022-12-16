@@ -9,7 +9,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala ilegal de arboles",
-      "coordenadas": "-78.29197316224703, -5.234623513899894"
+      "coordenadas": "-78.29197316224703, -5.234623513899894",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -25,8 +26,9 @@
       "distrito":"Coris",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-77.75889385765298, -9.280802379570117"
+      "descripcion_suceso":"Trafico de animales",
+      "coordenadas": "-77.75889385765298, -9.280802379570117",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -43,7 +45,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala masiva de arboles",
-      "coordenadas": "-73.04909751038974, -13.88152467952413"
+      "coordenadas": "-73.04909751038974, -13.88152467952413",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -59,8 +62,9 @@
       "distrito":"Ocoña",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro animales maltratados",
-      "coordenadas": "-71.53403407894628, -16.4094836078032"
+      "descripcion_suceso":"Trafico de animales en peligro de extincion",
+      "coordenadas": "-71.53403407894628, -16.4094836078032",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -76,8 +80,9 @@
       "distrito":"Iguaín",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Tala masiva de arboles",
-      "coordenadas": "-74.22243294236155, -13.164046009126286"
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-74.22243294236155, -13.164046009126286",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -93,8 +98,9 @@
       "distrito":"Conchán",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Tala masiva de arboles",
-      "coordenadas": "-78.5122712216146, -7.16199715443436"
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-78.5122712216146, -7.16199715443436",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -110,8 +116,9 @@
       "distrito":"Mollepata",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-71.9691214160287, -13.532513009166674"
+      "descripcion_suceso":"Trafico de animales",
+      "coordenadas": "-71.9691214160287, -13.532513009166674",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -127,8 +134,9 @@
       "distrito":"Caja",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-74.97664255253837, -12.786257198168977"
+      "descripcion_suceso":"Trafico de animales en peligro de extincion",
+      "coordenadas": "-74.97664255253837, -12.786257198168977",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -144,8 +152,9 @@
       "distrito":"Ripán",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-76.21382380237866, -9.873254764706411"
+      "descripcion_suceso":"Caza ilegal de animales",
+      "coordenadas": "-76.21382380237866, -9.873254764706411",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -161,8 +170,9 @@
       "distrito":"Áhuac",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-75.99161648842004, -11.158233649947675"
+      "descripcion_suceso":"Caza ilegal de animales",
+      "coordenadas": "-75.99161648842004, -11.158233649947675",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -179,7 +189,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala sin permiso",
-      "coordenadas": "-76.25500846413502, -10.678643747681004"
+      "coordenadas": "-76.25500846413502, -10.678643747681004",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -196,7 +207,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reportan abuso animal",
-      "coordenadas": "-73.29760760904645, -3.6602002072640043"
+      "coordenadas": "-73.29760760904645, -3.6602002072640043",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -212,8 +224,9 @@
       "distrito":"La Cruz",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se reportan maltrato animal",
-      "coordenadas": "-80.42793305615136, -3.5562146712125293"
+      "descripcion_suceso":"Trafico de animales",
+      "coordenadas": "-80.42793305615136, -3.5562146712125293",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -229,8 +242,9 @@
       "distrito":"Yuruá",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Se registra tala ilegal masiva",
-      "coordenadas": "-74.57335801343946, -8.356757877509798"
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-74.57335801343946, -8.356757877509798",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -247,7 +261,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se registra animales en mal estado",
-      "coordenadas": "-80.42779939950466, -3.55662036568107"
+      "coordenadas": "-80.42779939950466, -3.55662036568107",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -263,8 +278,9 @@
       "distrito":"Frías",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Se visualiza la tala ilegal",
-      "coordenadas": "-80.65719663159823, -5.178379438249277"
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-80.65719663159823, -5.178379438249277",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -281,7 +297,8 @@
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-70.9454390483412, -17.19988271391863"
+      "coordenadas": "-70.9454390483412, -17.19988271391863",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -297,8 +314,9 @@
       "distrito":"Picsi",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-79.90913231482864, -6.719678797479661"
+      "descripcion_suceso":"Se encontraron animales abandonados",
+      "coordenadas": "-79.90913231482864, -6.719678797479661",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -314,8 +332,9 @@
       "distrito":"Masma Chicche",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-75.36138674124159, -11.774832360510379"
+      "descripcion_suceso":"Se reporta animales enfermos",
+      "coordenadas": "-75.36138674124159, -11.774832360510379",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -331,8 +350,9 @@
       "distrito":"Muquiyauyo",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-75.45751332559809, -11.813052448339866"
+      "descripcion_suceso":"Caza ilegal de animales",
+      "coordenadas": "-75.45751332559809, -11.813052448339866",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -348,8 +368,9 @@
       "distrito":"Pancán",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-75.48934591769938, -11.74739483133044"
+      "descripcion_suceso":"Se reporta caza ilegal",
+      "coordenadas": "-75.48934591769938, -11.74739483133044",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
@@ -365,8 +386,9 @@
       "distrito":"Pomacancha",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-75.62473564512455, -11.738423185509815"
+      "descripcion_suceso":"Se reporta animales traficados",
+      "coordenadas": "-75.62473564512455, -11.738423185509815",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
