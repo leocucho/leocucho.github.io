@@ -3,39 +3,57 @@
     "type": "Feature",
     "properties": {
       "fecha":"2022-12-13",
-      "departamento":"Amazonas",
-      "provincia":"Chachapoyas",
-      "distrito":"Asunción",
+      "departamento":"Lima",
+      "provincia":"Lima",
+      "distrito":"Surco",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala ilegal de arboles",
-      "coordenadas": "-78.29197316224703, -5.234623513899894",
+      "coordenadas": "-77.04254311007888, -12.047110703195372",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-78.29197316224703, -5.234623513899894]
+        "coordinates": [-77.04254311007888, -12.047110703195372]
     }
   },
   {
     "type": "Feature",
     "properties": {
       "fecha":"2022-12-13",
-      "departamento":"Ancash",
-      "provincia":"Aija",
-      "distrito":"Coris",
+      "departamento":"Amazonas",
+      "provincia":"Bagua",
+      "distrito":"Chiliquín",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales",
-      "coordenadas": "-77.75889385765298, -9.280802379570117",
+      "coordenadas": "-78.220041535829, -5.446303278028154",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-77.75889385765298, -9.280802379570117]
+        "coordinates": [-78.220041535829, -5.446303278028154]
     }
   },
   {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Ancash",
+      "provincia":"Aija",
+      "distrito":"Coris",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Forestal",
+      "descripcion_suceso":"Tala masiva de arboles",
+      "coordenadas": "-77.75340069362532, -9.459657949063244",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.75340069362532, -9.459657949063244]
+    }
+  },
+	{
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
@@ -43,14 +61,14 @@
       "provincia":"Abancay",
       "distrito":"Circa",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Tala masiva de arboles",
-      "coordenadas": "-73.04909751038974, -13.88152467952413",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Trafico de animales en peligro de extincion",
+      "coordenadas": "-73.08205649455567, -13.980159148878904",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-73.04909751038974, -13.88152467952413]
+        "coordinates": [-73.08205649455567, -13.980159148878904]
     }
   },
 	{
@@ -58,17 +76,17 @@
     "properties": {
       "fecha":"2022-11-04",
       "departamento":"Arequipa",
-      "provincia":"Camaná",
+      "provincia":"Camaná ",
       "distrito":"Ocoña",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Trafico de animales en peligro de extincion",
-      "coordenadas": "-71.53403407894628, -16.4094836078032",
+      "tipo_denuncia":"Forestal",
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-71.54072887260499, -16.40866026041078",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-71.53403407894628, -16.4094836078032]
+        "coordinates": [-71.54072887260499, -16.40866026041078]
     }
   },
 	{
@@ -77,25 +95,7 @@
       "fecha":"2022-11-04",
       "departamento":"Ayacucho",
       "provincia":"Huanta",
-      "distrito":"Iguaín",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Deforestacion",
-      "coordenadas": "-74.22243294236155, -13.164046009126286",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-74.22243294236155, -13.164046009126286]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Cajamarca",
-      "provincia":"Chota",
-      "distrito":"Conchán",
+      "distrito":"Sivia",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
@@ -111,18 +111,54 @@
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
+      "departamento":"Cajamarca",
+      "provincia":"Chota",
+      "distrito":"Chota",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Trafico de animales",
+      "coordenadas": "-78.64994787884027, -6.343200627684688",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-78.64994787884027, -6.343200627684688]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Callao",
+      "provincia":"Callao",
+      "distrito":"Ventanilla",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Trafico de animales en peligro de extincion",
+      "coordenadas": "-77.12853631234026, -12.048596785459514",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-77.12853631234026, -12.048596785459514]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
       "departamento":"Cusco",
       "provincia":"Anta",
       "distrito":"Mollepata",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Trafico de animales",
-      "coordenadas": "-71.9691214160287, -13.532513009166674",
+      "descripcion_suceso":"Caza ilegal de animales",
+      "coordenadas": "-71.9595083789803, -13.533013695407853",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-71.9691214160287, -13.532513009166674]
+        "coordinates": [-71.9595083789803, -13.533013695407853]
     }
   },
 	{
@@ -134,31 +170,49 @@
       "distrito":"Caja",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Trafico de animales en peligro de extincion",
-      "coordenadas": "-74.97664255253837, -12.786257198168977",
+      "descripcion_suceso":"Caza ilegal de animales",
+      "coordenadas": "-74.97976420919133, -12.78630645526006",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-74.97664255253837, -12.786257198168977]
+        "coordinates": [-74.97976420919133, -12.78630645526006]
     }
   },
-  {
+	{
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
       "departamento":"Huánuco",
-      "provincia":"Dos de Mayo",
-      "distrito":"Ripán",
+      "provincia":"Huacaybamba",
+      "distrito":"Pinra",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Caza ilegal de animales",
-      "coordenadas": "-76.21382380237866, -9.873254764706411",
+      "tipo_denuncia":"Forestal",
+      "descripcion_suceso":"Tala sin permiso",
+      "coordenadas": "-76.2421111413131, -9.922394467138886",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-76.21382380237866, -9.873254764706411]
+        "coordinates": [-76.2421111413131, -9.922394467138886]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Ica",
+      "provincia":"Chincha",
+      "distrito":"Grocio Prado",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se reportan abuso animal",
+      "coordenadas": "-75.73518115125805, -14.075592958966615",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.73518115125805, -14.075592958966615]
     }
   },
 	{
@@ -170,31 +224,49 @@
       "distrito":"Áhuac",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Caza ilegal de animales",
-      "coordenadas": "-75.99161648842004, -11.158233649947675",
+      "descripcion_suceso":"Trafico de animales",
+      "coordenadas": "-75.32810033804927, -11.364958909993366",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-75.99161648842004, -11.158233649947675]
+        "coordinates": [-75.32810033804927, -11.364958909993366]
     }
   },
 	{
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
-      "departamento":"Pasco",
-      "provincia":"Pasco",
-      "distrito":"Huariaca",
+      "departamento":"La Libertad",
+      "provincia":"Trujillo",
+      "distrito":"El Porvenir",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Tala sin permiso",
-      "coordenadas": "-76.25500846413502, -10.678643747681004",
+      "descripcion_suceso":"Deforestacion",
+      "coordenadas": "-78.47804277011151, -8.161345888423577",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-76.25500846413502, -10.678643747681004]
+        "coordinates": [-78.47804277011151, -8.161345888423577]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Lambayeque",
+      "provincia":"Chiclayo",
+      "distrito":"La Victoria",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se registra animales en mal estado",
+      "coordenadas": "-79.90878379464172, -6.719682188102499",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-79.90878379464172, -6.719682188102499]
     }
   },
 	{
@@ -203,70 +275,70 @@
       "fecha":"2022-11-04",
       "departamento":"Loreto",
       "provincia":"Maynas",
-      "distrito":"Napo",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se reportan abuso animal",
-      "coordenadas": "-73.29760760904645, -3.6602002072640043",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-73.29760760904645, -3.6602002072640043]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Tumbes",
-      "provincia":"Tumbes",
-      "distrito":"La Cruz",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Trafico de animales",
-      "coordenadas": "-80.42793305615136, -3.5562146712125293",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-80.42793305615136, -3.5562146712125293]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Ucayali",
-      "provincia":"Atalaya",
-      "distrito":"Yuruá",
+      "distrito":"Iquitos",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
-      "coordenadas": "-74.57335801343946, -8.356757877509798",
+      "coordenadas": "-73.25344899604771, -3.745037278311844",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-74.57335801343946, -8.356757877509798]
+        "coordinates": [-73.25344899604771, -3.745037278311844]
     }
   },
 	{
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
-      "departamento":"Tumbes",
-      "provincia":"Tumbes",
-      "distrito":"Corrales",
+      "departamento":"Madre de Dios",
+      "provincia":"Manu",
+      "distrito":"Fitzcarrald",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se registra animales en mal estado",
-      "coordenadas": "-80.42779939950466, -3.55662036568107",
+      "descripcion_suceso":"Se encontro monos enfermos",
+      "coordenadas": "-70.80810415903214, -11.809268338283436",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-80.42779939950466, -3.55662036568107]
+        "coordinates": [-70.80810415903214, -11.809268338283436]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Moquegua",
+      "provincia":"Mariscal Nieto",
+      "distrito":"Torata",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se encontraron animales abandonados",
+      "coordenadas": "-70.93275724117052, -17.19374029165402",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-70.93275724117052, -17.19374029165402]
+    }
+  },
+	{
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Pasco",
+      "provincia":"Pasco",
+      "distrito":"Huachón",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se reporta animales enfermos",
+      "coordenadas": "-75.15739279114722, -10.482510505603159",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-75.15739279114722, -10.482510505603159]
     }
   },
 	{
@@ -277,122 +349,104 @@
       "provincia":"Ayabaca",
       "distrito":"Frías",
       "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Forestal",
-      "descripcion_suceso":"Deforestacion",
-      "coordenadas": "-80.65719663159823, -5.178379438249277",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-80.65719663159823, -5.178379438249277]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Moquegua",
-      "provincia":"Mariscal Nieto",
-      "distrito":"Samegua",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontro monos enfermos",
-      "coordenadas": "-70.9454390483412, -17.19988271391863",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-70.9454390483412, -17.19988271391863]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Lambayeque",
-      "provincia":"Chiclayo",
-      "distrito":"Picsi",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se encontraron animales abandonados",
-      "coordenadas": "-79.90913231482864, -6.719678797479661",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-79.90913231482864, -6.719678797479661]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Junín",
-      "provincia":"Jauja",
-      "distrito":"Masma Chicche",
-      "referencia":"Al frente de la plaza de armas",
-      "tipo_denuncia":"Fauna Silvestre",
-      "descripcion_suceso":"Se reporta animales enfermos",
-      "coordenadas": "-75.36138674124159, -11.774832360510379",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-75.36138674124159, -11.774832360510379]
-    }
-  },
-	{
-    "type": "Feature",
-    "properties": {
-      "fecha":"2022-11-04",
-      "departamento":"Junín",
-      "provincia":"Jauja",
-      "distrito":"Muquiyauyo",
-      "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Caza ilegal de animales",
-      "coordenadas": "-75.45751332559809, -11.813052448339866",
+      "coordenadas": "-80.65273343582575, -5.17803751667179",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-75.45751332559809, -11.813052448339866]
+        "coordinates": [-80.65273343582575, -5.17803751667179]
     }
   },
 	{
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
-      "departamento":"Junín",
-      "provincia":"Jauja",
-      "distrito":"Pancán",
+      "departamento":"Puno",
+      "provincia":"Puno",
+      "distrito":"Coata",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta caza ilegal",
-      "coordenadas": "-75.48934591769938, -11.74739483133044",
+      "coordenadas": "-70.02256902068362, -15.841073797412042",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-75.48934591769938, -11.74739483133044]
+        "coordinates": [-70.02256902068362, -15.841073797412042]
     }
   },
   {
     "type": "Feature",
     "properties": {
       "fecha":"2022-11-04",
-      "departamento":"Junín",
-      "provincia":"Jauja",
-      "distrito":"Pomacancha",
+      "departamento":"San Martín",
+      "provincia":"Bellavista",
+      "distrito":"Alto Biavo",
       "referencia":"Al frente de la plaza de armas",
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales traficados",
-      "coordenadas": "-75.62473564512455, -11.738423185509815",
+      "coordenadas": "-76.85492647175266, -7.259488386175983",
       "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-75.62473564512455, -11.738423185509815]
+        "coordinates": [-76.85492647175266, -7.259488386175983]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Tacna",
+      "provincia":"Tacna",
+      "distrito":"Calana",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se reporta animales traficados",
+      "coordenadas": "-70.2461768717467, -18.011763737552997",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-70.2461768717467, -18.011763737552997]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Tumbes",
+      "provincia":"Tumbes",
+      "distrito":"La Cruz",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se reporta animales traficados",
+      "coordenadas": "-80.42777618350202, -3.5588665239023562",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-80.42777618350202, -3.5588665239023562]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "fecha":"2022-11-04",
+      "departamento":"Ucayali",
+      "provincia":"Atayala",
+      "distrito":"Raimondi",
+      "referencia":"Al frente de la plaza de armas",
+      "tipo_denuncia":"Fauna Silvestre",
+      "descripcion_suceso":"Se reporta animales traficados",
+      "coordenadas": "-73.07017151367529, -9.878908848960021",
+      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-73.07017151367529, -9.878908848960021]
     }
   }
 ]
