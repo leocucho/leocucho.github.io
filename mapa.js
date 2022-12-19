@@ -32,12 +32,46 @@ xhr.onreadystatechange = function() {
             pointToLayer: function (feature, latlng) {                             
               if(feature.properties.tipo_denuncia == 'Fauna Silvestre') {                
                 return L.circleMarker(latlng, geojsonMarkerOptions)
-                .bindPopup(`${feature.properties.departamento}`)              
+                .bindPopup(`
+                <div class="row">
+          <div class="col-12 col-md-8">
+          <div class="">
+          <span><strong>DENUNCIA REGISTRADA</strong></span>
+        </div>
+          </div>
+          <div class="col-12 col-md-12">
+            <div class="resumen">
+            <label>Departamento: <span>${feature.properties.departamento}</span></label><br>
+            <label>Provincia: <span>${feature.properties.provincia}</span></label><br>
+            <label>Distrito: <span>${feature.properties.distrito}</span></label><br>
+            <label>Ubicación: <span>${feature.properties.referencia}</span></label>          
+            <label>Tipo de denuncia: <span>${feature.properties.tipo_denuncia}</span></label>
+            <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
+            </div>            
+          </div>          
+        </div>
+                `)              
                 .openPopup()
               }
               else {
                 return L.circleMarker(latlng, geojson_estilo)
-                .bindPopup(`${feature.properties.foto_denuncia}`)              
+                .bindPopup(`<div class="row">
+                <div class="col-12 col-md-8">
+                <div class="">
+                <span><strong>DENUNCIA REGISTRADA</strong></span>
+              </div>
+                </div>
+                <div class="col-12 col-md-12">
+                  <div class="resumen">
+                  <label>Departamento: <span>${feature.properties.departamento}</span></label><br>
+                  <label>Provincia: <span>${feature.properties.provincia}</span></label><br>
+                  <label>Distrito: <span>${feature.properties.distrito}</span></label><br>
+                  <label>Ubicación: <span>${feature.properties.referencia}</span></label>          
+                  <label>Tipo de denuncia: <span>${feature.properties.tipo_denuncia}</span></label>
+                  <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
+                  </div>            
+                </div>          
+              </div>`)              
                 .openPopup()
               }
             },
