@@ -47,6 +47,11 @@ xhr.onreadystatechange = function() {
             <label>Ubicación: <span>${feature.properties.referencia}</span></label>          
             <label>Tipo de denuncia: <span>${feature.properties.tipo_denuncia}</span></label>
             <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
+            <div>
+          <div class="text-center">
+            <a href="#">Ver detalle</a>
+          </div>
+        </div>
             </div>            
           </div>          
         </div>
@@ -69,6 +74,11 @@ xhr.onreadystatechange = function() {
                   <label>Ubicación: <span>${feature.properties.referencia}</span></label>          
                   <label>Tipo de denuncia: <span>${feature.properties.tipo_denuncia}</span></label>
                   <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
+                  <div>
+                  <div class="text-center">
+                    <a href="#">Ver detalle</a>
+                  </div>
+                </div>
                   </div>            
                 </div>          
               </div>`)              
