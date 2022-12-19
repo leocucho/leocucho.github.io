@@ -49,7 +49,7 @@ xhr.onreadystatechange = function() {
             <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
             <div>
           <div class="text-center">
-            <a href="#">Ver detalle</a>
+            <a href="#leyenda">Ver detalle</a>
           </div>
         </div>
             </div>            
@@ -76,7 +76,7 @@ xhr.onreadystatechange = function() {
                   <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
                   <div>
                   <div class="text-center">
-                    <a href="#">Ver detalle</a>
+                    <a href="#leyenda">Ver detalle</a>
                   </div>
                 </div>
                   </div>            
