@@ -10,7 +10,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala ilegal de arboles",
       "coordenadas": "-77.04254311007888, -12.047110703195372",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -28,7 +28,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales",
       "coordenadas": "-78.220041535829, -5.446303278028154",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -46,7 +46,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala masiva de arboles",
       "coordenadas": "-77.75340069362532, -9.459657949063244",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -64,7 +64,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales en peligro de extincion",
       "coordenadas": "-73.08205649455567, -13.980159148878904",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -82,7 +82,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
       "coordenadas": "-71.54072887260499, -16.40866026041078",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -100,7 +100,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
       "coordenadas": "-78.5122712216146, -7.16199715443436",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -118,7 +118,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales",
       "coordenadas": "-78.64994787884027, -6.343200627684688",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -136,7 +136,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales en peligro de extincion",
       "coordenadas": "-77.12853631234026, -12.048596785459514",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -154,7 +154,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Caza ilegal de animales",
       "coordenadas": "-71.9595083789803, -13.533013695407853",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -172,7 +172,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Caza ilegal de animales",
       "coordenadas": "-74.97976420919133, -12.78630645526006",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -190,7 +190,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala sin permiso",
       "coordenadas": "-76.2421111413131, -9.922394467138886",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -208,7 +208,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reportan abuso animal",
       "coordenadas": "-75.73518115125805, -14.075592958966615",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -226,7 +226,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Trafico de animales",
       "coordenadas": "-75.32810033804927, -11.364958909993366",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -244,7 +244,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
       "coordenadas": "-78.47804277011151, -8.161345888423577",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -262,7 +262,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se registra animales en mal estado",
       "coordenadas": "-79.90878379464172, -6.719682188102499",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -280,7 +280,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Deforestacion",
       "coordenadas": "-73.25344899604771, -3.745037278311844",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -298,7 +298,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se encontro monos enfermos",
       "coordenadas": "-70.80810415903214, -11.809268338283436",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -316,7 +316,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se encontraron animales abandonados",
       "coordenadas": "-70.93275724117052, -17.19374029165402",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -334,7 +334,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales enfermos",
       "coordenadas": "-75.15739279114722, -10.482510505603159",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -352,7 +352,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Caza ilegal de animales",
       "coordenadas": "-80.65273343582575, -5.17803751667179",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -370,7 +370,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta caza ilegal",
       "coordenadas": "-70.02256902068362, -15.841073797412042",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -388,7 +388,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales traficados",
       "coordenadas": "-76.85492647175266, -7.259488386175983",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -406,7 +406,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales traficados",
       "coordenadas": "-70.2461768717467, -18.011763737552997",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -424,7 +424,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales traficados",
       "coordenadas": "-80.42777618350202, -3.5588665239023562",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
@@ -442,7 +442,7 @@
       "tipo_denuncia":"Fauna Silvestre",
       "descripcion_suceso":"Se reporta animales traficados",
       "coordenadas": "-73.07017151367529, -9.878908848960021",
-      "foto_denuncia":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSC70Lmz4DlZaew4yRNvGkeVMePawnsHRQ3g&usqp=CAU"
+      "img":"<img src=\"forestal.jpeg\" alt=\"forestal\">"
     },
     "geometry": {
         "type": "Point",
