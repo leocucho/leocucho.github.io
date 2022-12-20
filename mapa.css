@@ -24,14 +24,13 @@ li {
   font-weight: 200;
 }
 
-.resultado {
-  border: solid 4px #fff;
+.resultado {  
   color: #000;
   background-color: #fff;
   
 }
 
-.informacion div {
+.seleccion div {
   display: inline-block;
 }
 
