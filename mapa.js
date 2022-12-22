@@ -18,9 +18,34 @@ let geojson_estilo = {
 
 let map = L.map('map').setView([-7.469349226618606, -75.9108656520952],6)
 
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+let osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map)
+
+
+let Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  subdomains: 'abcd',
+  minZoom: 0,
+  maxZoom: 20,
+  ext: 'png'
+});
+
+let Stamen_Terrain = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  subdomains: 'abcd',
+  minZoom: 0,
+  maxZoom: 18,
+  ext: 'png'
+});
+
+let basemaps = {
+    'Seleccionar tipo denuncia': osm,
+    'Forestal': Stamen_Toner,
+    'Fauna silvestre': Stamen_Terrain
+}
+
+L.control.layers(basemaps).addTo(map)      
 
       
 
@@ -49,7 +74,7 @@ xhr.onreadystatechange = function() {
             <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
             <div>
           <div class="text-center">
-            <input type="button" value="Ver detalle" onclick="document.getElementById('resultado').innerHTML='<div><h3>Detalle de la denuncia:</h3><label>Fecha:<span>${feature.properties.fecha}</span></label><br><label>Tipo de denuncia:<span>${feature.properties.tipo_denuncia}</span></label><br><label>Descripción:<span>${feature.properties.descripcion_suceso}</span></label><br><label>imagen:<span>${feature.properties.foto_denuncia}</span></label></div><div><h4>Referencias</h4></div><div><label>Departamento:<span>${feature.properties.departamento}</span></label><br><label>Provincia:<span>${feature.properties.provincia}</span></label><br><label>Distrito:<span>${feature.properties.distrito}</span></label><br><label>Referencia:<span>${feature.properties.referencia}</span></label><br><label>Coordenadas:<span>${feature.properties.coordenadas}</span></label></div>'">
+            <input type="button" value="Ver detalle" onclick="document.getElementById('resultado').innerHTML='<div><h3>Detalle de la denuncia:</h3><label>Fecha:<span>${feature.properties.fecha}</span></label><br><label>Tipo de denuncia:<span>${feature.properties.tipo_denuncia}</span></label><br><label>Descripción:<span>${feature.properties.descripcion_suceso}</span></label><br><label>imagen:<span>${feature.properties.img}</span></label></div><div><h4>Referencias</h4></div><div><label>Departamento:<span>${feature.properties.departamento}</span></label><br><label>Provincia:<span>${feature.properties.provincia}</span></label><br><label>Distrito:<span>${feature.properties.distrito}</span></label><br><label>Referencia:<span>${feature.properties.referencia}</span></label><br><label>Coordenadas:<span>${feature.properties.coordenadas}</span></label></div>'">
           </div>
         </div>
             </div>            
@@ -62,7 +87,7 @@ xhr.onreadystatechange = function() {
                 return L.circleMarker(latlng, geojson_estilo)
                 .bindPopup(`<div class="row">
                 <div class="col-12 col-md-8">
-                <div class="">
+                <div class="info">
                 <span><strong>DENUNCIA REGISTRADA</strong></span>
               </div>
                 </div>
@@ -76,7 +101,7 @@ xhr.onreadystatechange = function() {
                   <label>Descripcion: <span>${feature.properties.descripcion_suceso}</span></label>
                   <div>
                   <div class="text-center">
-                  <input type="button" value="Ver detalle" onclick="document.getElementById('resultado').innerHTML='<div><h3>Detalle de la denuncia:</h3><label>Fecha:<span>${feature.properties.fecha}</span></label><br><label>Tipo de denuncia:<span>${feature.properties.tipo_denuncia}</span></label><br><label>Descripción:<span>${feature.properties.descripcion_suceso}</span></label><br><label>imagen:<span>${feature.properties.foto_denuncia}</span></label></div><div><h4>Referencias</h4></div><div><label>Departamento:<span>${feature.properties.departamento}</span></label><br><label>Provincia:<span>${feature.properties.provincia}</span></label><br><label>Distrito:<span>${feature.properties.distrito}</span></label><br><label>Referencia:<span>${feature.properties.referencia}</span></label><br><label>Coordenadas:<span>${feature.properties.coordenadas}</span></label></div>'">
+                  <input type="button" value="Ver detalle" onclick="document.getElementById('resultado').innerHTML='<div><h3>Detalle de la denuncia:</h3><label>Fecha:<span>${feature.properties.fecha}</span></label><br><label>Tipo de denuncia:<span>${feature.properties.tipo_denuncia}</span></label><br><label>Descripción:<span>${feature.properties.descripcion_suceso}</span></label><br><label>imagen:<span>${feature.properties.img}</span></label></div><div><h4>Referencias</h4></div><div><label>Departamento:<span>${feature.properties.departamento}</span></label><br><label>Provincia:<span>${feature.properties.provincia}</span></label><br><label>Distrito:<span>${feature.properties.distrito}</span></label><br><label>Referencia:<span>${feature.properties.referencia}</span></label><br><label>Coordenadas:<span>${feature.properties.coordenadas}</span></label></div>'">
                   </div>
                 </div>
                   </div>            
@@ -84,11 +109,8 @@ xhr.onreadystatechange = function() {
               </div>`)              
                 .openPopup()
               }
-            },
-            onEachFeature: function (feature, layer) {
-              console.log(feature)
-              console.log(layer)
             }
+            
         }).addTo(map);
     }
 };
