@@ -10,7 +10,7 @@
       "tipo_denuncia":"Forestal",
       "descripcion_suceso":"Tala ilegal de arboles",
       "coordenadas": "-77.04254311007888, -12.047110703195372",
-      "img": "forestal.jpeg"
+      "img": "./forestal.jpeg"
     },
     "geometry": {
         "type": "Point",
