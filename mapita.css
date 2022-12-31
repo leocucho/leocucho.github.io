@@ -11,7 +11,7 @@ html, body, #map {
 
 .container-legend  {
   position: absolute;
-  top: 30px;
+  bottom: 30px;
   left: 10px;
   z-index: 99999;
   padding: 10px;
