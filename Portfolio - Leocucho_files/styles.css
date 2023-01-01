@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(315deg, rgba(202, 131, 0, 0.781) 11%, rgb(185, 197, 185) 48%, rgb(6, 252, 252) 58%, rgb(209, 209, 54) 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+
+.nav-bar li {
+  list-style: none;  
+  margin: 0px 1em 0 auto;
+}
+
+.planetas img {
+  width: 40%;
+  height: auto;
+}
+
+
+
+.about {
+  height: 90vh;  
+}
+
+.portafolio h2 {
+  font-size: 60px;
+}
+
+.proyectos {
+  height: 100vh;
+}
+
+.services {
+  height: 90vh;
+}
+
+.contacto {
+  height: 40vh;
+}
+
+.nav-bar a {
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  font-family: "Audiowide", sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.nav-bar a:hover {
+  text-decoration: underline solid 2px #000;
+}
+
+h1 {      
+  color: #000;
+  text-align: center;
+  font-size: 47px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+h3 {
+  margin: 10px 0;
+}
+p {
+  margin: 10px 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.redes div {
+  display: inline-block;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 4rem;
+  right: 1rem;
+  width: 6.6rem;
+  height: 6.6;
+  z-index: -1;  
+}
+
+.accordion-item {
+  background: linear-gradient(315deg, rgba(202, 131, 0, 0.781) 11%, rgb(185, 197, 185) 48%, rgb(6, 252, 252) 58%, rgb(209, 209, 54) 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;  
+}
+
+
