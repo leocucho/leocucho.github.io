@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;700&display=swap');
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;700&display=swap');
+
 
 body {
   font-family: Arial, sans-serif;
@@ -11,98 +16,129 @@ body {
   background-attachment: fixed;
 }
 
+
+
+nav {
+  color: #000;
+
+}
+
 .nav-bar li {
+  color: #000;
   list-style: none;  
-  margin: 0px 1em 0 auto;
+  margin: 0px 1em 0 auto;  
 }
 
-.planetas img {
-  width: 40%;
-  height: auto;
+.navbar-toggler-icon {
+  color: #000;
 }
 
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
 
+.nav-item a:hover {
+  text-decoration: underline solid 2px #000;
+  color: #000;
+}
 
 .about {
-  height: 90vh;  
+  height: 90vh; 
+}
+
+
+@media (max-width: 600px) {
+  .about {
+    height: 120vh;
+  }
+}
+
+
+
+
+.skill li {
+  display: inline-block;
+  list-style: none;
+  margin: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.set-list {
+  padding: 0;
+  margin: 0;
 }
 
 .portafolio h2 {
   font-size: 60px;
 }
 
-.proyectos {
-  height: 100vh;
+.card  img {  
+  height: 177.967;
 }
 
-.services {
-  height: 90vh;
+.body-card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px; 
+  margin-bottom: 10px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.body-card {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+}
+
+.body-card h4 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.body-card p {
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .contacto {
   height: 40vh;
 }
 
-.nav-bar a {
-  font-size: 19px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #000;
-  font-family: "Audiowide", sans-serif;
-  text-transform: uppercase;
-  
-}
-
-.nav-bar a:hover {
-  text-decoration: underline solid 2px #000;
-}
-
-h1 {      
-  color: #000;
-  text-align: center;
-  font-size: 47px;
-  font-family: "Audiowide", sans-serif;
-  font-weight: 800;
-}
-
 h2 {
   margin: 20px 0;
   text-align: center;
 }
-h3 {
-  margin: 10px 0;
-}
-p {
-  margin: 10px 0;
-}
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-.project {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
-}
+
 .redes div {
   display: inline-block;
 }
 
-.go-top {
+
+
+#back-to-top {
   position: fixed;
-  bottom: 4rem;
-  right: 1rem;
-  width: 6.6rem;
-  height: 6.6;
-  z-index: -1;  
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 22px;
+  font-weight: bolder;
+  border: none;
+  outline: none;  
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
-
-.accordion-item {
-  background: linear-gradient(315deg, rgba(202, 131, 0, 0.781) 11%, rgb(185, 197, 185) 48%, rgb(6, 252, 252) 58%, rgb(209, 209, 54) 98%);
-  animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;  
-}
-
 

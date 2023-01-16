@@ -1,184 +1,237 @@
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
   <title>Portfolio - Leocucho</title>
  
 </head>
 <body>
   <header>
-    <div class="head p-5">
-      <h1>Leonardo Cucho - Web developer</h1>
-    </div>  
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-5">
+          <div class="text-center"><h2 class="text-center">LeoCucho // Web developer</h2></div>
+        </div>
+        <div class="col-12 col-md-4">
+          <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">            
+                <ul class="navbar-nav ms-auto">              
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>                    
+                </ul>              
+            </div>     
+    </nav>
+        </div>
+      </div>
+    </div>
+    
   </header>
   
   <div class="container-portafolio portafolio">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-4">
-        <div class="planetas text-center p-2">
-          <img src="https://www.pngkit.com/png/full/278-2788672_planet-jupiter-png-download-saturn-planet-clipart.png" alt="new">         
-        </div>                
-      </div>
-      <div class="col-12 col-md-10">
-        <div class="nav-bar text-center">
-          <ul class="d-inline-flex p-2">
-            <li><span><a href="#about">About</a></span></li>
-            <li><span><a href="#proyecto">Projects</a></span></li>
-            <li><span><a href="#servicios">Services</a></span></li>
-            <li><span><a href="#contacto">Contact</a></span></li>
-          </ul>
-        </div>
-      </div>    
-    </div>
-
+    <div class="container">
     <div id="about" class="row justify-content-center about">
       <div class="col-12 col-md-8">
         <div class="pt-5">
           <div class="mt-5 mb-5">
-            <h2 class="float-start">About Me</h2><br>
+            <h2 class="float-start">Acerca de mi</h2><br>
           </div>
           <div class="mt-5 p-2">
             <p>Hi, I'm Leonardo and I'm a junior web developer with a passion for building useful and engaging applications. I have experience with HTML, CSS, and JavaScript, and I always look for learning and improve my skills. In my free time, I prefer to read intersting books or watch series.</p>
             <p>
-              yo empece a programar de los 30 a;os desde ahi fue cuesta arriba  aprendi HMTL CSS JS bootstrap y vue  solo viendo tutoriales de internet y leyendo documentacion, con eso empece a desarrollar mis propios sitios web. 
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt iusto fugit ipsam voluptatem doloribus. Quasi ad consequatur ullam recusandae eos voluptas quisquam repudiandae unde ipsa, aspernatur dignissimos vero nisi nemo consectetur? Fugiat totam aspernatur perferendis sit, voluptates beatae rerum reprehenderit cumque voluptas doloremque tenetur? 
             </p>
-            <P>
-              actualmente sigo aprendiendo para poder desarrollar mejores sitios wwerb aprender nuevos lenguajes de programacion   y buscando proyecto en los cuales pueda colaborar
-            </P>
+            <p>
+              I believe that my combination of experience and self-learning make me a valuable asset as a junior developer. I am always eager to take on new challenges and continue to improve my skills, and I am confident that I will be able to make a meaningful contribution to any team I join.
+            </p>
+            <div class="skill mt-5 mb-5">
+              <h3>Habilidades:</h3>
+              <ul class="set-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PYTHON</li>
+                <li>MySQL</li>
+                <li>VUE</li>
+                <li>DJANGO</li>
+                <li>BOOTSTRAP</li>
+                <li>RESPONSIVE DESIGN</li>
+                <li>GIT</li>
+              </ul>
+            </div>
           </div>          
         </div>
       </div>      
     </div>
     
-    <div id="proyectos" class="row justify-content-center mt-5 proyectos">
-      <div class="col-12 col-md-8">        
-        <h2>Projects</h2>
-        <div class="accordion" id="accordionFlushExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                MaderaLegal
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">                
-                <p>
-                  sitio web contruido con bootstrap vue y libreias como leaflet, highchart, 3d .
-                </p>
-                <a href="#">Ver más</a>          
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                OjoPublico - especial coronavirus
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body">                
-            <p>
-              ladingpage construido con vue bootstrap un sitio interactivo con cambio de idioma
-            </p>
-            <a href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/peru-awajun/">ver mas</a>       
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Mapa
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="accordion-body">                
-            <p>
-              mapa interactivo que permite ver  los delitos ambientales y zonas de conflicto. consruido con html css bootstrap leaflet.
-            </p>
-            <a href="#">Ver mas</a>
-          </div>
-              </div>
-            </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                Dashboard - panel de control
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-              <div class="accordion-body">                
-            <p>
-              Dashboard que adminostra info del fotoreporte , construido con phyton y django.
-            </p>
-            <a href="#">ver mas</a>       
-              </div>
-            </div>
-          </div>
-          
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                  
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-              <div class="accordion-body">                  
-              <p>An application that retrieves and displays current weather information for a given location, using the OpenWeatherMap API and JavaScript.</p>
-              <a href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/peru-awajun/">ver mas</a>       
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-                <div class="accordion-body">
-                  <h3>OjoPublico - especial</h3>
-              <p>An application that retrieves and displays current weather information for a given location, using the OpenWeatherMap API and JavaScript.</p>
-              <a href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/peru-awajun/">ver mas</a>       
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-           
-      </div>      
-    </div>
-
-    <div id="servicios" class="row justify-content-center mt-5 proyectos">
-      <div class="col-12 col-md-8">        
-          <h2>Services</h2>
-            <div class="project">
-              <h3 >MaderaLegal</h3>
-              <p>A simple to-do list application built with HTML, CSS, and JavaScript. Features include adding and deleting tasks, and saving the list to local storage.</p>
-            </div>        
-      </div>
-      <div class="col-12 col-md-8"> 
-        <div class="project">
-          <h3>Weather App</h3>
-          <p>An application that retrieves and displays current weather information for a given location, using the OpenWeatherMap API and JavaScript.</p>
+    <div id="projects" class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <div class="mt-5 mb-5">
+          <h2 class="float-start">Projects</h2><br>
         </div>
       </div>
       <div class="col-12 col-md-8">
-        <div class="project">
-          <h3>Calculator</h3>
-          <p>A simple calculator that can perform basic arithmetic operations using HTML, CSS, and JavaScript.</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3" style="max-width: 540px;">
+              <img src="https://i0.wp.com/www.proetica.org.pe/wp-content/uploads/2021/08/WEB_OBS.jpg?fit=1024%2C576&ssl=1"alt="f">
+              <div class="body-card">
+                <h4 class="mt-3">MaderaLegal</h4>
+              <p>plataforma de busqueda desarrollada con bootstrap-vue y librerias como Chart.js, </p>
+              <div class="mb-3">
+                <a href="https://www.maderalegal.pe/#/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT96ybrN8V2tXD64d-GGddrqsMTyaXmTmtVYMdodIKi9eX6TYwPj4Gk-hsXNFfj6Fdxo4&usqp=CAU" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Visiones del Coronavirus</h4>
+              <p>Plataforma web interactiva, contruida con bootstrap-vue y librerias como i18n, vue-analytics.</p>
+              <div class="mb-3">
+                <a href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/assets/images/before_credit.png" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">I am Vanessa Guillen</h4>
+              <p>Bootstrap-vue para construir la plataforma responsiva y de una sola página</p>
+              <div class="mb-3">
+                <a href="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://pbs.twimg.com/media/FKC6PhbX0AYCDG7.jpg" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Defensores.pe</h4>
+              <p>Plataforma construida con Django para crear y gestionar formularios  manejar la autenticación y autorización de usuarios.</p>
+              <div class="mb-3">
+                <a href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://promsex.org/wp-content/uploads/2021/03/Logo-para-web-para-%C3%81ngel-300x138.jpg" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Promsex</h4>
+              <p></p>
+              <div class="mb-3">
+                <a href="https://incidenciainternacional.promsex.org/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div> 
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://ojo-publico.com/sites/default/files/inline-images/image%20%2848%29%20%281%29.jpg" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Bingo Electoral</h4>
+              <p></p>
+              <div class="mb-3">
+                <a href="https://ojo-publico.com/especiales/bingo-electoral-elecciones-regionales-municipales-2022/#/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/assets/images/foto_costa.png" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Surfside</h4>
+              <p>Landing page desarrollada para el portal de noticias Univision, cuenta la historia de una soldado norteamericana.</p>
+              <div class="mb-3">
+                <a href="https://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/index.html#/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/assets/images/before_credit.png" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">I am Vanessa Guillen</h4>
+              <p>Landing page desarrollada para el portal de noticias Univision, cuenta la historia de una soldado norteamericana.</p>
+              <div class="mb-3">
+                <a href="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card mt-3 mb-3">
+              <img src="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/assets/images/before_credit.png" class="card-img-top" alt="f">
+              <div class="body-card">
+                <h4 class="mt-3 ">Foto reporte</h4>
+              <p>Dashboard desarrollado con python utilizando django html,css y JavaScript. permite analizar y cargar documentos excel.</p>
+              <div class="mb-3">
+                <a href="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/es/">Ver más</a>
+              </div>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <div id="servicios" class="row justify-content-center mt-5">
+      <div class="col-12 col-md-8">        
+        <div class="mt-5 mb-5">
+          <h2 class="float-start">Servicios</h2><br>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-8">
+        <div>
+          <ul>
+            <li>Diseño y desarrollo de sitios web personalizados utilizando las últimas tendencias en diseño y tecnología.</li>
+            <li>Optimización de motores de búsqueda (SEO)para ayudar a mejorar el ranking de un sitio web en los motores de búsqueda mediante técnicas de SEO.</li>
+            <li>Integración de redes sociales en un sitio web para aumentar la presencia en línea de una empresa o organización.</li>
+            <li>Mantenimiento y actualizaciones para asegurar que un sitio web siga funcionando correctamente y este actualizado con las últimas tendencias y tecnologías.</li>
+            
+          </ul>
         </div>
       </div>
       
     </div>
     
     <div id="contacto" class="row justify-content-center contacto mt-5 mb-5">      
-      <div class="col-12 col-md-8">        
+      <div class="col-12 col-md-8">
+        <div class="mt-5 mb-5">
+          <h2 class="float-start">Contacto</h2>          
+          
+        </div>
         <div class="mt-5 float-end">          
-          <div>
-            <h5>Contact</h5>
+          <div>            
             <p>Email: leonardocucho@gmail.com</p>
             <p>Phone: +51 992459999</p>
             <p>City: Lima - Peru</p>
@@ -207,19 +260,15 @@
           </div>
         </div>
       </div>
-    </div>
-    
-    <div class="row mt-5">
-      <div class="col-12">
-        <div class="float-end go-top">
-          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
-          </svg>
-        </div>
+      <div>
+        <a href="#" id="back-to-top" title="Back to top"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg></a>
       </div>
     </div>
-    
+    </div>
   </div>
+  <script src="portafolio.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
