@@ -42,13 +42,13 @@ h1 {
 }
 
 .about {
-  height: 110vh; 
+  height: 120vh; 
 }
 
 
 @media (max-width: 600px) {
   .about {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 .body-card a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(7, 7, 7);
   font-weight: 400;
   font-size: 14px;
   margin-left: 10px; 
@@ -87,8 +87,8 @@ h1 {
 }
 
 .body-card {
-  background-color: rgba(0, 0, 0, 0.815);
-  color: #fff;
+  background-color: rgba(248, 244, 244, 0.815);
+  color: rgb(17, 17, 17);
 }
 
 .body-card h4 {
@@ -104,15 +104,20 @@ h1 {
   margin-left: 10px;
 }
 
+.servicios li {
+  font-size: 19px;
+}
+
 .contacto {
   height: 40vh;
+}
+.contacto li {
+  list-style: none;
 }
 
 .redes div {
   display: inline-block;
 }
-
-
 
 #back-to-top {
   position: fixed;
