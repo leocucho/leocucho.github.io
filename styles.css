@@ -8,13 +8,12 @@
 
 
 h1 {  
-  font-size: 50px;
+  font-size: 20px !important;
   color: #000;
-  text-decoration: underline solid 3px;
-  margin-left: 285px;
+  text-decoration: underline solid 3px; 
 }
 
-.menu {
+nav {
   background: rgba(255, 255, 255, 0.288);
   padding: 0;
   margin: 0;
@@ -59,16 +58,19 @@ body {
   background-attachment: fixed;
 }
 
-.about {
-  height: 85vh; 
+.menu {
+  margin-left: auto;  
+}
+.menu li {
+  padding: 0 10px;
 }
 
-
-@media (max-width: 540px) {
-  .about {
-    height: 100vh;
-  }
+.titulo { 
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 800;
 }
+
 
 .skill li {
   display: inline-block;
@@ -174,10 +176,9 @@ body {
 }
 
 .idioma button {
-  background-color: transparent;
+  background-color: transparent;  
   border: none;
-  color: #000;
-  font-weight: 600;
+  color: #000; 
   text-decoration: underline;
-  margin-right: 15px;
+ 
 }
