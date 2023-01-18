@@ -6,60 +6,67 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-  <title>Portfolio - Leocucho</title> 
+  <title>LeoCuchoWebDeveloper</title> 
 </head>
 <body>
-  <header>
+  <div class="container-fluid menu">    
     <div class="float-end p-3 idioma">
       <button id="English">EN</button>
       <button id="Spanish">ES</button>
     </div>
-    <div class="row menu mt-5">        
-        <div class="col-3 col-md-12 order-0 order-md-1">          
-          <nav class="navbar navbar-expand-lg  navbar-light">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#servicios">Servicios</a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>                    
-                </ul>              
-            </div>     
-          </nav>
-        </div>        
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <div class="row mt-5">
+          <div class="col-4 col-md-3 order-1 order-md-0 d-none d-md-block">
+            <h1>LeoCuchoWebDeveloper</h1>
+          </div>          
+          <div class="col-4 col-md-9 order-0 order-md-1">
+            <div>              
+              <nav class="navbar navbar-expand-lg  navbar-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#servicios">Services</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contact</a>
+                        </li>                    
+                    </ul>              
+                </div>     
+              </nav>
+            </div>
+          </div>        
+      </div>
+      </div>
     </div>
-  </header>        
+  </div>        
  
   <div class="container-portafolio portafolio">    
     <div class="container">
-    <div id="about" class="row justify-content-center about">
+    <div id="about" class="row justify-content-center about mb-5">
       <div class="col-12 col-md-8">
-        <div class="pt-5">
-          <div class="mt-5 mb-5">
-            <h2 class="float-start">Acerca de mi</h2><br>
-          </div>
-          <div class="mt-5 p-2">
+        <div class="pt-5 mb-5">          
+            <h2 class="float-start">About me</h2>          
+          <div class="mt-5">
             <p>
-              Mi nombre es José Leonardo Cucho desarrollador web con pasion por construir aplicaciones útiles y atractivas. He trabajado en el desarrollo de productos digitales utilizando las últimas tecnologías y herramientas de  HTML, CSS, JavaScript, Python y frameworks como Vue.js y Django. Mi objetivo es seguir desarrollando mis habilidades y contribuir en proyectos innovadores.
+              My name is José Leonardo Cucho Gamboa, a web developer with a passion for building useful and attractive applications. I have worked in the development of digital products using the latest technologies and tools of HTML, CSS, JavaScript, Python and frameworks such as Vue.js and Django. My goal is to continue developing my skills and contribute to innovative projects.
             </p>
             
-            <p>He tenido la oportunidad de trabajar en equipos multidisciplinarios y colaborar con diseñadores, desarrolladores back-end, lo que me ha permitido desarrollar habilidades de comunicación y colaboración eficaces. Mi dedicación a aprender y mejorar continuamente me permite adaptarme rápidamente a nuevas tecnologías y proyectos. Estoy buscando oportunidades para aplicar mis habilidades en un ambiente laboral desafiante y enriquecedor. 
+            <p>I have been working in multidisciplinary teams and collaborating with designers, back-end developers, which has allowed me to develop effective communication and collaboration skills. My dedication to continually learning and improving allows me to quickly adapt to new technologies and projects. I am looking for opportunities to apply my skills in a challenging and enriching work environment. 
             </p>
            
             <div class="skill mt-5 mb-5">
-              <h3>Habilidades:</h3>
+              <h3>Skills:</h3>
               <ul class="set-list">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -84,57 +91,57 @@
       </div>      
     </div>
     
-    <div id="projects" class="row justify-content-center">
+    <div id="projects" class="row justify-content-center mt-5">
       <div class="col-12 col-md-8">
         <div class="mt-5 mb-5">
-          <h2 class="float-start">Proyectos</h2><br>
+          <h2 class="float-start">Projects</h2><br>
         </div>
       </div>
       <div class="col-12 col-md-8">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6">
             <div class="card mt-3 mb-3" style="max-width: 540px;">              
-                <img src="https://i0.wp.com/www.proetica.org.pe/wp-content/uploads/2021/08/WEB_OBS.jpg?fit=1024%2C576&ssl=1"alt="f" onclick="window.open('https\://www.maderalegal.pe/#/es/','_blank')">
+                <img src="https://i0.wp.com/www.proetica.org.pe/wp-content/uploads/2021/08/WEB_OBS.jpg?fit=1024%2C576&ssl=1"alt="f" onclick="window.open('https\://www.maderalegal.pe/#/en/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3">MaderaLegal</h4>
-              <p>Plataforma web diseñada para analizar y visualizar información del movimiento de madera ilegal en la selva del Perú</p>
+              <p>Web platform designed to analyze and visualize information on the movement of illegal timber in the jungle of Peru</p>
               <div class="mb-3">
-                <a target="_blank" href="https://www.maderalegal.pe/#/es/">Ver más</a>
+                <a target="_blank" href="https://www.maderalegal.pe/#/en/">See more</a>
               </div>
               </div>            
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="card mt-3 mb-3">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT96ybrN8V2tXD64d-GGddrqsMTyaXmTmtVYMdodIKi9eX6TYwPj4Gk-hsXNFfj6Fdxo4&usqp=CAU" class="card-img-top" alt="f" onclick="window.open('https\://ojo-publico.com/especiales/visiones-del-coronavirus/es/','_blank')">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT96ybrN8V2tXD64d-GGddrqsMTyaXmTmtVYMdodIKi9eX6TYwPj4Gk-hsXNFfj6Fdxo4&usqp=CAU" class="card-img-top" alt="f" onclick="window.open('https\://ojo-publico.com/especiales/visiones-del-coronavirus/en/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Visiones del Coronavirus</h4>
-              <p>Plataforma web interactiva que cuenta la historia de cómo la pandemia ha afectado a diferentes pueblos indigenas.</p>
+              <p>Interactive web platform that tells the story of how the pandemic has affected different indigenous peoples.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://ojo-publico.com/especiales/visiones-del-coronavirus/es/">Ver más</a>
+                <a target="_blank" href="https://ojo-publico.com/especiales/visiones-del-coronavirus/en/">See more</a>
               </div>
               </div>            
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="card mt-3 mb-3">
-              <img src="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/assets/images/before_credit.png" class="card-img-top" alt="f" onclick="window.open('https\://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/es/','_blank')">
+              <img src="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/assets/images/before_credit.png" class="card-img-top" alt="f" onclick="window.open('https\://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/en/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">I am Vanessa Guillen</h4>
-              <p>Landing page desarrollada para el portal de noticias Univision, cuenta la historia de una soldado norteamericana que sufrio abuso en el cuartel.</p>
+              <p>Landing page developed for the Univision news portal, tells the story of an American soldier who suffered abuse in the army.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/es/">Ver más</a>
+                <a target="_blank" href="https://www.univision.com/especiales/noticias/2022/i-am-vanessa-guillen/#/en/">See more</a>
               </div>
               </div>            
             </div>
           </div><div class="col-12 col-md-6">
             <div class="card mt-3 mb-3">
-              <img src="https://st1.uvnimg.com/55/3a/1d16baca414ca1dbca339bb40e89/6f1b81f6061943b5a1c56f9416b74727" class="card-img-top" alt="f" onclick="window.open('https\://incidenciainternacional.promsex.org/','_blank')">
+              <img src="https://st1.uvnimg.com/55/3a/1d16baca414ca1dbca339bb40e89/6f1b81f6061943b5a1c56f9416b74727" class="card-img-top" alt="f" onclick="window.open('https\://www.univision.com/especiales/noticias/2022/univisionarios/#/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Univisionarios</h4>
-              <p>Landing page creada para el canal de noticias Univision, narra la historia de los latinos mas sobresalientes en Estados Unidos. </p>
+              <p>Landing page created for the Univision news channel, tells the story of the most outstanding Latinos in the United States.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://incidenciainternacional.promsex.org/">Ver más</a>
+                <a target="_blank" href="https://www.univision.com/especiales/noticias/2022/univisionarios/#/">See more</a>
               </div>
               </div>            
             </div>
@@ -144,9 +151,9 @@
               <img src="https://ojo-publico.com/sites/default/files/inline-images/image%20%2848%29%20%281%29.jpg" class="card-img-top" alt="f" onclick="window.open('https\://ojo-publico.com/especiales/bingo-electoral-elecciones-regionales-municipales-2022/#/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Bingo Electoral</h4>
-              <p>Especial para las elecciones municipales 2022, es un interactivo que detalla las denuncias y antecedentes de los candidatos.</p>
+              <p>Interactive platform for the 2022 municipal elections, it is an interactive that details the complaints and background of the candidates.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://ojo-publico.com/especiales/bingo-electoral-elecciones-regionales-municipales-2022/#/">Ver más</a>
+                <a target="_blank" href="https://ojo-publico.com/especiales/bingo-electoral-elecciones-regionales-municipales-2022/#/">See more</a>
               </div>
               </div>            
             </div>
@@ -156,9 +163,9 @@
               <img src="https://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/assets/images/foto_costa.png" class="card-img-top" alt="f" onclick="window.open('https\://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/index.html#/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Surfside</h4>
-              <p>Landing page para documental, en el que narra la historia de las familias que perdieron todo en el derrumbe de su edificio en Surfside Miami. </p>
+              <p>Landing page for a documentary, in which he tells the story of the families who lost everything in the collapse of their building in Surfside Miami.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/index.html#/">Ver más</a>
+                <a target="_blank" href="https://www.univision.com/especiales/noticias/2022/derrumbe-en-surfside-trauma-y-lecciones-por-aprender-tras-la-tragedia-en-miami/index.html#/">See more</a>
               </div>
               </div>            
             </div>
@@ -168,9 +175,9 @@
               <img src="https://www.univision.com/especiales/noticias/2022/rising-up-in-the-heartland/img/westliberty-test.14e6a39e.png" class="card-img-top" alt="f" onclick="window.open('https\://www.univision.com/especiales/noticias/2022/rising-up-in-the-heartland/index.html#/en/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">RISING UP IN THE HEARTLAND</h4>
-              <p>Landing page creada para el portal web univision.com, narra la historia de los trabajadores inmigrantes en el estado de Iowa.</p>
+              <p>Landing page created for the univision.com web portal, tells the story of immigrant workers in the state of Iowa.</p>
               <div class="mb-3">
-                <a href="https://www.univision.com/especiales/noticias/2022/rising-up-in-the-heartland/index.html#/en/">Ver más</a>
+                <a href="https://www.univision.com/especiales/noticias/2022/rising-up-in-the-heartland/index.html#/en/">See more</a>
               </div>
               </div>            
             </div>
@@ -180,9 +187,9 @@
               <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_450,c_limit/https%3A%2F%2Fimgs.mongabay.com%2Fwp-content%2Fuploads%2Fsites%2F25%2F2022%2F10%2F29153218%2FCaptura-de-Pantalla-2022-10-29-a-las-10.31.41-768x512.png" class="card-img-top" alt="f" onclick="window.open('#','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Foto reporte</h4>
-              <p>Dashboard que permite la administracion de las denuncias ingresadas a travez del sofware Foto reporte.</p>
+              <p>Dashboard that allows the administration of complaints entered through the Foto Reporte software.</p>
               <div class="mb-3">
-                <a target="_blank" href="#">Ver más</a>
+                <a target="_blank" href="#">See more</a>
               </div>
               </div>            
             </div>
@@ -192,9 +199,9 @@
               <img src="https://pbs.twimg.com/media/FKC6PhbX0AYCDG7.jpg" class="card-img-top" alt="f" onclick="window.open('https\://defensores.pe/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Defensores.pe</h4>
-              <p>Plataforma desarrollada para la coordinadora nacional de derechos humanos, que permite la visualización y registro de denuncias, contra defensores de los ddhh.</p>
+              <p>Platform developed for the national human rights coordinator, which allows the visualization and registration of complaints against human rights defenders.</p>
               <div class="mb-3">
-                <a href="https://defensores.pe/">Ver más</a>
+                <a href="https://defensores.pe/">See more</a>
               </div>
               </div>            
             </div>
@@ -204,9 +211,9 @@
               <img src="https://promsex.org/wp-content/uploads/2021/03/Logo-para-web-para-%C3%81ngel-300x138.jpg" class="card-img-top" alt="f" onclick="window.open('https\:incidenciainternacional.promsex.org/','_blank')">
               <div class="body-card">
                 <h4 class="mt-3 ">Promsex</h4>
-              <p>Plataforma institucional desarrollada en wordpress, para el Centro de Promoción y Defensa de los Derechos Sexuales y Reproductivos.</p>
+              <p>Institutional platform developed in wordpress, for the Center for the Promotion and Defense of Sexual and Reproductive Rights.</p>
               <div class="mb-3">
-                <a target="_blank" href="https://incidenciainternacional.promsex.org/">Ver más</a>
+                <a target="_blank" href="https://incidenciainternacional.promsex.org/">See more</a>
               </div>
               </div>            
             </div>
@@ -219,19 +226,19 @@
     <div id="servicios" class="row justify-content-center servicios mt-5">
       <div class="col-12 col-md-8">        
         <div class="mt-5 mb-5">
-          <h2 class="float-start">Servicios</h2><br>
+          <h2 class="float-start">Services</h2>
         </div>
 
       </div>
       <div class="col-12 col-md-8">
         <div>
           <ul>
-            <li>Diseño y desarrollo de sitios web personalizados utilizando las últimas tendencias en diseño y tecnología.</li>
-            <li>Configuracion de servidores web Apache y Nginx, motores de base de datos MySql PostgreSQL.</li>            
-            <li>Mantenimiento y actualizaciones de plataforma web para asegurar la disponibilidad de los servicios.</li>
-            <li>Desarrollo de plataforma de contenido con python y django.</li>                   
-            <li>Diseño e implementación de plataforma para vizualización de datos.</li>
-            <li>Diseño de noticias interactivas, formatos y graficos.</li>
+            <li>Design and development of custom websites using the latest trends in design and technology.</li>
+            <li>Configuration of Apache and Nginx web servers, MySql PostgreSQL database engines.</li>            
+            <li>Maintenance and updates of the web platform to ensure the availability of services.</li>
+            <li>Platform development with python and django.</li>
+            <li>Design and implementation of platform for data visualization.</li>
+            <li>Design of interactive news, formats and graphics.</li>
           </ul>
         </div>
       </div>      
@@ -240,7 +247,7 @@
     <div id="contacto" class="row justify-content-center contacto mt-5 mb-5 contacto">      
       <div class="col-12 col-md-8">
         <div class="mt-5 mb-5">
-          <h2>Contacto</h2>          
+          <h2>Contact</h2>          
           <div>
             <ul class="datos">
               <li>Email: leonardocucho@gmail.com</li>

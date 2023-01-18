@@ -19,8 +19,8 @@ document.getElementById("back-to-top").addEventListener("click", topFunction);
 
 
 document.getElementById("English").onclick = function() {
-    window.location.href = "index-en.html";
+    window.location.href = "index.html";
 };
 document.getElementById("Spanish").onclick = function() {
-    window.location.href = "index.html";
+    window.location.href = "index-es.html";
 };
