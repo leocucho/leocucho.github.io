@@ -14,3 +14,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 document.getElementById("back-to-top").addEventListener("click", topFunction);
+
+// cambio idioma
+
+
+document.getElementById("English").onclick = function() {
+    window.location.href = "index-en.html";
+};
+document.getElementById("Spanish").onclick = function() {
+    window.location.href = "index.html";
+};

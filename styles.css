@@ -135,3 +135,11 @@ h1 {
   border-radius: 4px;
 }
 
+.idioma button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-right: 15px;
+}
