@@ -1,3 +1,13 @@
+aclib.runAutoTag({
+  zoneId: '3ccxfv1zrc',
+});
+
+
+aclib.runAutoTag({
+  zoneId: 'k648jbjthn',
+});
+
+
 // Mostrar el botón "Volver al inicio" al hacer scroll
 window.onscroll = function() {scrollFunction()};
 
@@ -28,7 +38,6 @@ document.getElementById("Spanish").onclick = function() {
 };
 
 
-aclib.runAutoTag({
-    zoneId: '3ccxfv1zrc',
-});
+
+
 
